@@ -4,17 +4,17 @@ React + TypeScript + Vite implementation of the FAQ section from the Figma desig
 
 ---
 
-## Running the Project
-
-```bash
-npm install
-npm run dev
+## Testing Instructions
 ```
-
-```bash
-npm run build
+1. Run `npm install`
+2. Run `npm run dev`
+3. Open the local URL
+4. Confirm first item is open by default
+5. Click FAQ items and confirm only one opens
+6. Test keyboard Tab / Enter / Space
+7. Run `npm run build` (check: dist/)
+8. Run `npm run preview`
 ```
-
 ---
 
 ## Project Structure
