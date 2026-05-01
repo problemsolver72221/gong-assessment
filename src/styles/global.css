@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Inter+Tight:wght@700&display=swap");
+
+:root {
+  --font-body: "Inter", Arial, Helvetica, sans-serif;
+  --font-heading: "Inter Tight", "Inter", Arial, Helvetica, sans-serif;
+
+  --color-page-background: #ffffff;
+  --color-accordion-background: rgba(128, 57, 223, 0.1);
+  --color-surface: #ffffff;
+  --color-heading: #1d0254;
+  --color-body: #6e6c78;
+  --color-accent: #8039df;
+  --color-button-background: #fd63fe;
+
+  --radius-accordion: 24px;
+  --radius-item: 16px;
+  --radius-pill: 48px;
+
+  font-family: var(--font-body);
+  color: var(--color-heading);
+  background: var(--color-page-background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-page-background);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
