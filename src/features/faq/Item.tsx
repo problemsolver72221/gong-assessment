@@ -1,5 +1,11 @@
 import type { FaqItem } from "./types";
 
+/**
+ * Item component that represents a single FAQ item, displaying the question and answer.
+ * It uses ARIA attributes to ensure accessibility, allowing users to expand and collapse the answer by clicking on the question. 
+ * The component also includes visual indicators for the open/closed state of the item, enhancing the user experience.  
+ */
+
 type ItemProps = {
   item: FaqItem;
   isOpen: boolean;
