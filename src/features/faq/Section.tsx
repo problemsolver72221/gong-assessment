@@ -3,9 +3,7 @@ import { Accordion } from "./Accordion";
 import { Intro } from "./Intro";
 import type { FaqItem } from "./types";
 
-/**
- * FAQ Section component that displays a list of frequently asked questions and their answers.
- */
+
 const faqItems: FaqItem[] = Array.from({ length: 10 }, (_, index) => ({
   id: `faq-${index + 1}`,
   question : "Lorem ipsum dolor sit amet consectetur?",
@@ -18,7 +16,9 @@ const faqItems: FaqItem[] = Array.from({ length: 10 }, (_, index) => ({
 // using the same FaqItem shape: { id, question, answer }.
 
 
-
+/**
+ * FAQ Section component that displays a list of frequently asked questions and their answers.
+ */
 
 export const FaqSection = () => {
   return (
